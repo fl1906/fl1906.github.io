@@ -1175,7 +1175,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #d9b80e;
+  background: #ff4e8a;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2445,4 +2445,23 @@ ul.breadcrumb li + li:last-child {
 }
 .links-of-blogroll-item {
   padding: 0;
+}
+body {
+  background: url("https://pic.gksec.com/2021/02/28/0781900e6c202/img-c9a0dff0e5b5f656eb7fc7259d114358.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-origin: border-box;
+  background-size: cover;
+}
+body .content-wrap {
+  opacity: 0.9;
+}
+body .sidebar {
+  opacity: 0.9;
+}
+body .header-inner {
+  background: rgba(255,255,255,0.1);
+}
+body .popup {
+  opacity: 0.9;
 }
